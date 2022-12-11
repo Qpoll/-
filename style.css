@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: bolder;
+}
+
+.container {
+  max-width: 1140px;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  background: #D9E6F1;
+  padding: 20px 0;
+  display: flex;
+}
+
+.logo-title {
+  margin-top: 28px;
+  margin-bottom: 28px;
+  margin-left: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 150px;
+}
+
+.title {
+  color: #044B8C;
+}
+
+.contacts {
+  display: flex;
+}
+
+.social {
+  margin-top: 28px;
+  margin-bottom: 28px;
+  margin-right: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.social img {
+  width: 32px;
+  height: 25px;
+  object-fit: cover;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-right: 44px;
+}
+
+.phone img {
+  width: 24px;
+  height: 24px;
+}
+
+.info {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.student {
+  display: flex;
+  flex-direction: column;
+}
+
+.photo {
+  width: 114px;
+  height: 124px;
+}
+
+.select-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.student-name {
+  color: #044B8C;
+  font-size: 24px;
+}
+
+.select {
+  color: #044B8C;
+  font-size: 18px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.select img {
+  margin-left: 10px;
+}
+
+.select-2 {
+  color: #044B8C;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.select-2 img {
+  margin-left: 10px;
+}
+
+.selects {
+  display: flex;
+  margin-left: 48px;
+}
+
+.block {
+  margin-right: 45px;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 75px;
+  margin-left: 75px;
+  margin-right: 75px;
+  color: #044B8C;
+}
+
+.card {
+  background: #D9E6F1;
+  padding: 20px;
+}
+
+.card-2 {
+  background: #D9E6F1;
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card-title-2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.list-item {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 36px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.name {
+  margin-left: 40px;
+  margin-right: 24px;
+  font-size: 24px;
+}
+
+.value {
+  font-size: 24px;
+}
+
+footer {
+  background: #D9E6F1;
+  color: #044B8C;
+  padding: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 860px) {
+  .container {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  .logo-title {
+    margin-left: 5px;
+  }
+
+  .logo  {
+    width: 100px;
+    margin-right: 20px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .contacts {
+    margin-left: 50px;
+  }
+
+  .social {
+    margin: 0;
+  }
+
+  .phone {
+    margin: 0;
+    font-size: 14px;
+    margin-left: 20px;
+  }
+
+  .info {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .photo {
+    width: 46px;
+    height: 53px;
+    margin-bottom: 5px;
+  }
+
+  .student {
+    align-items: center;
+  }
+
+  .student-name {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .select {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+
+  .select img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .select-2 {
+    font-size: 15px;
+  }
+
+  .select-2 img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .selects {
+    flex-direction: column;
+    margin-left: 20px;
+  }
+
+  .block {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  .rating {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 35px;
+  }
+
+  .card {
+    margin-bottom: 35px;
+  }
+
+  .card-2 {
+    margin-bottom: 35px;
+    padding-bottom: 200px;
+  }
+
+  .name {
+    font-size: 16px;
+  }
+
+  .value {
+    font-size: 16px;
+  }
+}
